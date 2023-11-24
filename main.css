@@ -1,0 +1,202 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/0e/2a/c4/0e2ac40566d8eaa81fb1d3b94286202e.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(44, 43, 43, 0.5)), url("https://i.pinimg.com/originals/0e/2a/c4/0e2ac40566d8eaa81fb1d3b94286202e.jpg");
+    background-repeat: repeat;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+@media only screen and (max-width: 320px) {
+    .container-fluid {
+        background-color: white;
+        width: 50%;
+        text-align: center;
+    }
+    .block{
+        width: 100%;
+        text-align: center;
+    }
+}
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 900;
+}
+
+.photo{
+    width: 100%;
+
+}
+#Home{
+    background-color: rgba(128, 128, 128, 0.5);
+    margin: 10px;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.box-container{
+    color:white;
+    background-color: #797977;
+    text-align: center;
+    height: 180px;
+}
+.block {
+    border: 0px;
+    background-color: #f8f8f8;
+    padding: 0px;
+    margin-left: 20%;
+    text-align: center;
+    width: 730px;
+}
+.table1{
+    margin-left: 80px;
+}
+.table{
+    margin-left: 170px;
+}
+.logo{
+    font-size: 3rem;
+    color: #ff0000;
+    font-weight: bolder;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.info {
+    border-color: #2196F3;
+    color: dodgerblue
+}
+
+.info:hover {
+    background: #2196F3;
+    color: white;
+}
+
+
+
+#Slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #84ff00;
+    transition: width 0.3s;
+    z-index: 1000;
+}
+
+#animate {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+img.animated-gif{
+    width: 60px;
+    height: auto;
+}
+
+
+.image{
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 95%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #aba9a9;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #cecdcd;
+}
+
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}

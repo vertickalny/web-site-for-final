@@ -1,0 +1,28 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/0e/2a/c4/0e2ac40566d8eaa81fb1d3b94286202e.jpg);
+    background-repeat: repeat;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+.block {
+    border: 0px;
+    padding: 15px;
+    margin-right: 50px;
+    text-align: left;
+    width: 70%;
+    color: #9f9e9e;
+}
+
+.mb-3{
+    width: 35%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.text{
+    color: rgba(0, 0, 0, 0.5);
+}
